@@ -21,7 +21,6 @@
 		8378DC61150248D0001F703C /* AppNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8378DC60150248D0001F703C /* AppNavigationController.m */; };
 		8379C97714F93CBB002FC7EE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8379C97614F93CBB002FC7EE /* libsqlite3.0.dylib */; };
 		8385ADE515034BEC00FE6C84 /* CityHostelAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8385ADE415034BEC00FE6C84 /* CityHostelAnnotation.m */; };
-		83BB194917194B5700794FFC /* Hostel China.xcodeproj.zip in Resources */ = {isa = PBXBuildFile; fileRef = 83BB194817194B5700794FFC /* Hostel China.xcodeproj.zip */; };
 		83BE714617190403006B4EE7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 83BE714517190403006B4EE7 /* README.md */; };
 		83C0B3E014FD06A1004DBE93 /* HostelChina.db in Resources */ = {isa = PBXBuildFile; fileRef = 83C0B3DF14FD06A1004DBE93 /* HostelChina.db */; };
 		83C294C814F3D61100D0739B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C294C714F3D61100D0739B /* UIKit.framework */; };
@@ -143,7 +142,6 @@
 		8379C97614F93CBB002FC7EE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		8385ADE315034BEC00FE6C84 /* CityHostelAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityHostelAnnotation.h; sourceTree = "<group>"; };
 		8385ADE415034BEC00FE6C84 /* CityHostelAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityHostelAnnotation.m; sourceTree = "<group>"; };
-		83BB194817194B5700794FFC /* Hostel China.xcodeproj.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Hostel China.xcodeproj.zip"; sourceTree = SOURCE_ROOT; };
 		83BE714517190403006B4EE7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		83C0B3DF14FD06A1004DBE93 /* HostelChina.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = HostelChina.db; path = ../HostelChina.db; sourceTree = "<group>"; };
 		83C294C314F3D61100D0739B /* Hostel China.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hostel China.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -254,7 +252,6 @@
 		83C294CE14F3D61100D0739B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				83BB194817194B5700794FFC /* Hostel China.xcodeproj.zip */,
 				831656BE171946C200B3F773 /* SQLDataChinaHostels.md */,
 				831656BA1719459900B3F773 /* yhachina_hotels.xls */,
 				83BE714517190403006B4EE7 /* README.md */,
@@ -345,7 +342,6 @@
 				83BE714617190403006B4EE7 /* README.md in Resources */,
 				831656BB1719459900B3F773 /* yhachina_hotels.xls in Resources */,
 				831656BF171946C200B3F773 /* SQLDataChinaHostels.md in Resources */,
-				83BB194917194B5700794FFC /* Hostel China.xcodeproj.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
