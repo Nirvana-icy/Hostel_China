@@ -69,7 +69,7 @@
         self.locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
         self.locationManager.distanceFilter = 100.0f;
         self.locationManager.headingFilter = 5;
-        self.locationManager.purpose = @"Hostel China app will get you location and then navigate you to your favourite hostel.";
+//      self.locationManager.purpose = @"Hostel China app will get you location and then navigate you to your favourite hostel.";
         [self.locationManager startUpdatingLocation];
         [self.locationManager startUpdatingHeading];
     }
