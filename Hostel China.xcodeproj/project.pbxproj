@@ -29,10 +29,9 @@
 		83C294D214F3D61100D0739B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83C294D014F3D61100D0739B /* InfoPlist.strings */; };
 		83C294D414F3D61100D0739B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C294D314F3D61100D0739B /* main.m */; };
 		83C294DB14F3D61100D0739B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C294D914F3D61100D0739B /* MainStoryboard.storyboard */; };
-		83C294E514F3D63E00D0739B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83C294E414F3D63E00D0739B /* Icon@2x.png */; };
-		83C294E714F3D64600D0739B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83C294E614F3D64600D0739B /* Default@2x.png */; };
 		83E6DF5E15021F910045DEC8 /* YHAChinaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E6DF5B15021F910045DEC8 /* YHAChinaAppDelegate.m */; };
 		83E6DF5F15021F910045DEC8 /* YHAChinaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E6DF5D15021F910045DEC8 /* YHAChinaViewController.m */; };
+		83F81E4E18213AEB001D3B2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F81E4D18213AEB001D3B2A /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -154,11 +153,10 @@
 		83C294D514F3D61100D0739B /* Hostel China-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hostel China-Prefix.pch"; sourceTree = "<group>"; };
 		83C294D614F3D61100D0739B /* YHAChinaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHAChinaAppDelegate.h; sourceTree = "<group>"; };
 		83C294DA14F3D61100D0739B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		83C294E414F3D63E00D0739B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
-		83C294E614F3D64600D0739B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		83E6DF5B15021F910045DEC8 /* YHAChinaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHAChinaAppDelegate.m; sourceTree = "<group>"; };
 		83E6DF5C15021F910045DEC8 /* YHAChinaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHAChinaViewController.h; sourceTree = "<group>"; };
 		83E6DF5D15021F910045DEC8 /* YHAChinaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHAChinaViewController.m; sourceTree = "<group>"; };
+		83F81E4D18213AEB001D3B2A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +176,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83118D01182296FC00F22B2E /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		8376FE6E150E157600CF1CBC /* Group Up Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +240,7 @@
 		83C294CD14F3D61100D0739B /* Hostel China */ = {
 			isa = PBXGroup;
 			children = (
+				83118D01182296FC00F22B2E /* iPad */,
 				8376FE6E150E157600CF1CBC /* Group Up Scenes */,
 				83C294D914F3D61100D0739B /* MainStoryboard.storyboard */,
 				8378DC5F150248D0001F703C /* AppNavigationController.h */,
@@ -244,6 +250,7 @@
 				8385ADE315034BEC00FE6C84 /* CityHostelAnnotation.h */,
 				8385ADE415034BEC00FE6C84 /* CityHostelAnnotation.m */,
 				8376FE70150E15BE00CF1CBC /* Group Below Scenes */,
+				83F81E4D18213AEB001D3B2A /* Images.xcassets */,
 				83C294CE14F3D61100D0739B /* Supporting Files */,
 			);
 			path = "Hostel China";
@@ -256,8 +263,6 @@
 				831656BA1719459900B3F773 /* yhachina_hotels.xls */,
 				83BE714517190403006B4EE7 /* README.md */,
 				8374B2BC15137E5900A9A2E2 /* Localizable.strings */,
-				83C294E614F3D64600D0739B /* Default@2x.png */,
-				83C294E414F3D63E00D0739B /* Icon@2x.png */,
 				836D28901503A78B00B5810B /* Annotation_Image.png */,
 				83C294CF14F3D61100D0739B /* Hostel China-Info.plist */,
 				83C294D014F3D61100D0739B /* InfoPlist.strings */,
@@ -334,8 +339,7 @@
 			files = (
 				83C294D214F3D61100D0739B /* InfoPlist.strings in Resources */,
 				83C294DB14F3D61100D0739B /* MainStoryboard.storyboard in Resources */,
-				83C294E514F3D63E00D0739B /* Icon@2x.png in Resources */,
-				83C294E714F3D64600D0739B /* Default@2x.png in Resources */,
+				83F81E4E18213AEB001D3B2A /* Images.xcassets in Resources */,
 				83C0B3E014FD06A1004DBE93 /* HostelChina.db in Resources */,
 				836D28911503A78B00B5810B /* Annotation_Image.png in Resources */,
 				8374B2BA15137E5900A9A2E2 /* Localizable.strings in Resources */,
@@ -455,10 +459,14 @@
 		83C294E214F3D61100D0739B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hostel China/Hostel China-Prefix.pch";
 				INFOPLIST_FILE = "Hostel China/Hostel China-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -466,10 +474,14 @@
 		83C294E314F3D61100D0739B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hostel China/Hostel China-Prefix.pch";
 				INFOPLIST_FILE = "Hostel China/Hostel China-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
