@@ -257,7 +257,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eYC-Nw-V0R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3725" y="405"/>
+            <point key="canvasLocation" x="3786" y="473"/>
         </scene>
         <!--Select City Hostels Map View Controller-->
         <scene sceneID="rgp-5N-P6Z">

@@ -176,13 +176,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		83118D01182296FC00F22B2E /* iPad */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = iPad;
-			sourceTree = "<group>";
-		};
 		8376FE6E150E157600CF1CBC /* Group Up Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,7 +233,6 @@
 		83C294CD14F3D61100D0739B /* Hostel China */ = {
 			isa = PBXGroup;
 			children = (
-				83118D01182296FC00F22B2E /* iPad */,
 				8376FE6E150E157600CF1CBC /* Group Up Scenes */,
 				83C294D914F3D61100D0739B /* MainStoryboard.storyboard */,
 				8378DC5F150248D0001F703C /* AppNavigationController.h */,
@@ -426,7 +418,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -449,7 +441,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
