@@ -53,7 +53,7 @@
     {
         //Get the HostelChina.db's path in the app's bundle
         NSString *dbPath = [[NSBundle mainBundle] pathForResource:@"HostelChina" ofType:@"db"];
-        NSError*error;
+        NSError *error;
         [manager copyItemAtPath:dbPath toPath:dirToCopyTo error:&error];
         
     }

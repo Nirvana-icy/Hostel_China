@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+
 #import <sqlite3.h>
+
 static sqlite3 *db = nil;
 
 @interface AppNavigationController : UINavigationController
