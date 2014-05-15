@@ -33,6 +33,7 @@
 		83C294E714F3D64600D0739B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83C294E614F3D64600D0739B /* Default@2x.png */; };
 		83E6DF5E15021F910045DEC8 /* YHAChinaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E6DF5B15021F910045DEC8 /* YHAChinaAppDelegate.m */; };
 		83E6DF5F15021F910045DEC8 /* YHAChinaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E6DF5D15021F910045DEC8 /* YHAChinaViewController.m */; };
+		D84848C21924BC9D000D9A15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D84848C11924BC9D000D9A15 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -159,6 +160,8 @@
 		83E6DF5B15021F910045DEC8 /* YHAChinaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHAChinaAppDelegate.m; sourceTree = "<group>"; };
 		83E6DF5C15021F910045DEC8 /* YHAChinaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHAChinaViewController.h; sourceTree = "<group>"; };
 		83E6DF5D15021F910045DEC8 /* YHAChinaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHAChinaViewController.m; sourceTree = "<group>"; };
+		D84848C01924A181000D9A15 /* WirelessiPhoneClientDevInHouseProvisionFile (1).mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WirelessiPhoneClientDevInHouseProvisionFile (1).mobileprovision"; sourceTree = "<group>"; };
+		D84848C11924BC9D000D9A15 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +208,7 @@
 		83C294B814F3D61100D0739B = {
 			isa = PBXGroup;
 			children = (
+				D84848C11924BC9D000D9A15 /* Default-568h@2x.png */,
 				83C294CD14F3D61100D0739B /* Hostel China */,
 				83C294C614F3D61100D0739B /* Frameworks */,
 				83C294C414F3D61100D0739B /* Products */,
@@ -252,6 +256,7 @@
 		83C294CE14F3D61100D0739B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D84848C01924A181000D9A15 /* WirelessiPhoneClientDevInHouseProvisionFile (1).mobileprovision */,
 				831656BE171946C200B3F773 /* SQLDataChinaHostels.md */,
 				831656BA1719459900B3F773 /* yhachina_hotels.xls */,
 				83BE714517190403006B4EE7 /* README.md */,
@@ -306,7 +311,7 @@
 		83C294BA14F3D61100D0739B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = ZZULI;
 			};
 			buildConfigurationList = 83C294BD14F3D61100D0739B /* Build configuration list for PBXProject "Hostel China" */;
@@ -333,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83C294D214F3D61100D0739B /* InfoPlist.strings in Resources */,
+				D84848C21924BC9D000D9A15 /* Default-568h@2x.png in Resources */,
 				83C294DB14F3D61100D0739B /* MainStoryboard.storyboard in Resources */,
 				83C294E514F3D63E00D0739B /* Icon@2x.png in Resources */,
 				83C294E714F3D64600D0739B /* Default@2x.png in Resources */,
@@ -401,13 +407,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Qunar Software Technology Co., Ltd.";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -418,11 +425,16 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "03F113D4-E7A6-46C3-A987-62DD6C18C300";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -431,22 +443,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Qunar Software Technology Co., Ltd.";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "03F113D4-E7A6-46C3-A987-62DD6C18C300";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -458,6 +475,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hostel China/Hostel China-Prefix.pch";
 				INFOPLIST_FILE = "Hostel China/Hostel China-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -469,6 +487,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hostel China/Hostel China-Prefix.pch";
 				INFOPLIST_FILE = "Hostel China/Hostel China-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

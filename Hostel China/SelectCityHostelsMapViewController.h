@@ -20,4 +20,5 @@ static sqlite3_stmt *hostelStmt = nil;
 @property (nonatomic, strong) NSString *selectCity;
 @property (nonatomic, strong) NSString *selectHostel;
 @property (nonatomic, strong) NSMutableArray *annotations; //of id<MKAnnotation>
+
 @end

@@ -36,4 +36,5 @@
     coordinate.longitude = [[self.hostel objectForKey:@"hostelLongtitude"] doubleValue];
     return coordinate;
 }
+
 @end
