@@ -11,3 +11,5 @@ Chengdu > Chongqing > Wuhan is done in the following.
 You can find more info in http://www.douban.com/photos/album/64354620/
 
 Thank you and BRs.
+
+![image](https://raw.githubusercontent.com/Nirvana-icy/Touch_Signal_of_Android_Device_Touch_Screen/master/Touch_Signal/hostelChina.png)
